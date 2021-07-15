@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<ttCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="" xmlns:prodata="urn:schemas-progress-com:xml-prodata:0001">
+    <xsd:element name="ttCustomer" prodata:proTempTable="true">
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element name="ttCustomerRow" minOccurs="0" maxOccurs="unbounded">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="custNum" type="xsd:int" nillable="true"/>
+                <xsd:element name="NAME" type="xsd:string" nillable="true"/>
+                <xsd:element name="country" type="xsd:string" nillable="true"/>
+                <xsd:element name="city" type="xsd:string" nillable="true"/>
+                <xsd:element name="state" type="xsd:string" nillable="true"/>
+                <xsd:element name="phoneNo" type="xsd:string" nillable="true"/>
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <ttCustomerRow>
+    <custNum>1</custNum>
+    <NAME>vaishali</NAME>
+    <country>India</country>
+    <city>ballabgarh</city>
+    <state>Haryana</state>
+    <phoneNo>9326313613</phoneNo>
+  </ttCustomerRow>
+</ttCustomer>

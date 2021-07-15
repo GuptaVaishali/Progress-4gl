@@ -1,0 +1,21 @@
+************ Order Information ********************
+
+"order-num","cust-num","order-date","ship-date","promise-date","carrier","Instructions","PO","Terms","Sales-Rep"
+1015,2,07/13/21,?,07/28/21,"","","vaishali.gupta0714211015","Net30",""
+
+*********** OrderLine Information **************
+
+"Order-Num","Line-Num","Price","Qty","Discount","Extended-Price","BackOrder"
+1015,1,1,300,13,20,3120,no
+
+************ Order Information ********************
+
+"order-num","cust-num","order-date","ship-date","promise-date","carrier","Instructions","PO","Terms","Sales-Rep"
+1005,1,07/14/21,?,07/28/21,"","","vaishali.gupta0714211005","Net30",""
+
+*********** OrderLine Information **************
+
+"Order-Num","Line-Num","Price","Qty","Discount","Extended-Price","BackOrder"
+1005,1,1,200,12,20,1920,no
+1005,2,2,3456,12,27,30274.56,no
+

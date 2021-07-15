@@ -1,0 +1,18 @@
+{"ttCustomer": [
+  {
+    "custNum": 1,
+    "NAME": "vaishali",
+    "country": "india",
+    "city": "ballabgrah",
+    "state": "haryana",
+    "phoneNo": "9999988888"
+  },
+  {
+    "custNum": 2,
+    "NAME": "nidhi",
+    "country": "usa",
+    "city": "palwal",
+    "state": "haryana",
+    "phoneNo": "9999988899"
+  }
+]}
