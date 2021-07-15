@@ -1,0 +1,3 @@
+FIND FIRST customer EXCLUSIVE-LOCK NO-ERROR.
+PAUSE.
+DISP customer.

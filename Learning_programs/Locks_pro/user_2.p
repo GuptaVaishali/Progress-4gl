@@ -1,0 +1,15 @@
+FIND FIRST customer EXCLUSIVE-LOCK NO-ERROR.
+ MESSAGE "EXCLUSIVE-LOCK"
+    VIEW-AS ALERT-BOX INFORMATION BUTTONS OK. 
+DISP customer.       
+
+
+
+
+
+
+
+
+
+
+  

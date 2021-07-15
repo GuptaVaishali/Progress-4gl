@@ -1,0 +1,21 @@
+...pro\do_on_error.p                  05/23/2021 06:57:36   PROGRESS(R) Page 1   
+
+{} Line Blk
+-- ---- ---
+      1     DEF VAR i AS INT NO-UNDO.
+      2     DISP TRANSACTION.
+      3   1 DO i=1 TO 10 ON ERROR UNDO,RETRY:
+      4   1     DISP TRANSACTION.
+      5   1     DISP i.
+      6   1     FIND customer WHERE cust-num = 999.
+      7     END.
+...pro\do_on_error.p                  05/23/2021 06:57:36   PROGRESS(R) Page 2   
+
+     File Name       Line Blk. Type   Tran            Blk. Label            
+-------------------- ---- ----------- ---- --------------------------------
+...pro\do_on_error.p    0 Procedure   No                                    
+    Buffers: sports1.Customer
+    Frames:  Unnamed
+
+...pro\do_on_error.p    3 Do          No                                    
+

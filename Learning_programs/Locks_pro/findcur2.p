@@ -1,0 +1,2 @@
+FIND FIRST customer EXCLUSIVE-LOCK.
+UPDATE customer.NAME.
