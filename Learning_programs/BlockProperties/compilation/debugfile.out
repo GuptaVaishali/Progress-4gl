@@ -1,0 +1,11 @@
+        1   REPEAT:
+        2       FIND NEXT customer.
+        3       DISPLAY cust-num NAME WITH FRAME a.
+        4       LEAVE.      
+        5   END.
+        6   
+        7   REPEAT:
+        8       FIND NEXT customer.
+        9       DISPLAY cust-num NAME WITH FRAME b.
+       10   END.  
+       11   

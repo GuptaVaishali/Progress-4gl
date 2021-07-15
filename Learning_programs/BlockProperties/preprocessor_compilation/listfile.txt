@@ -1,0 +1,20 @@
+...on\preprocessor.p                  05/17/2021 13:51:29   PROGRESS(R) Page 1   
+
+{} Line Blk
+-- ---- ---
+      1     &GLOBAL-DEFINE Table customer
+      2     &GLOBAL-DEFINE Field name
+      3     &GLOBAL-DEFINE where-clause where {&Field}name <> "vaishali gupta"
+      4     
+      1     FIND NEXT {&Table}customer {&where-clause}where name <> "vaishali gu
+      5     pta".
+      6     DISPLAY {&Table}customer.
+...on\preprocessor.p                  05/17/2021 13:51:29   PROGRESS(R) Page 2   
+
+     File Name       Line Blk. Type   Tran            Blk. Label            
+-------------------- ---- ----------- ---- --------------------------------
+...on\preprocessor.p    0 Procedure   No                                    
+    Buffers: sports1.Customer
+    Frames:  Unnamed
+
+

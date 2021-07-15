@@ -1,0 +1,26 @@
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 1 COMPILE D:\vaishali\blockproperties\compilation\checking_scope.p
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 1 CPINTERNAL ISO8859-1
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 1 CPSTREAM ISO8859-1
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 2 STRING "Customer" 8 NONE UNTRANSLATABLE 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 2 SEARCH sports1.Customer Cust-Num WHOLE-INDEX
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 3 STRING "a" 1 NONE UNTRANSLATABLE 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 3 ACCESS sports1.Customer Cust-Num 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 3 ACCESS sports1.Customer Name 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 3 STRING ">>>>9" 5 NONE TRANSLATABLE  FORMAT 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 3 STRING "x(20)" 5 NONE TRANSLATABLE  FORMAT 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 8 SEARCH sports1.Customer Cust-Num WHOLE-INDEX
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 9 STRING "b" 1 NONE UNTRANSLATABLE 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 9 ACCESS sports1.Customer Cust-Num 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 9 ACCESS sports1.Customer Name 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 9 STRING ">>>>9" 5 NONE TRANSLATABLE  FORMAT 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 9 STRING "x(20)" 5 NONE TRANSLATABLE  FORMAT 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 10 STRING "Cust-Num" 8 LEFT TRANSLATABLE 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 10 STRING "Name" 4 LEFT TRANSLATABLE 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 10 STRING "Cust-Num" 8 NONE UNTRANSLATABLE 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 10 STRING "Name" 4 NONE UNTRANSLATABLE 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 10 STRING "--------- ----------------------" 32 NONE UNTRANSLATABLE 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 10 STRING "Cust-Num" 8 LEFT TRANSLATABLE 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 10 STRING "Name" 4 LEFT TRANSLATABLE 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 10 STRING "Cust-Num" 8 NONE UNTRANSLATABLE 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 10 STRING "Name" 4 NONE UNTRANSLATABLE 
+D:\vaishali\blockproperties\compilation\checking_scope.p D:\vaishali\blockproperties\compilation\checking_scope.p 10 STRING "--------- ----------------------" 32 NONE UNTRANSLATABLE 

@@ -1,0 +1,6 @@
+        1   &GLOBAL-DEFINE Table customer
+        2   &GLOBAL-DEFINE Field name
+        3   &GLOBAL-DEFINE where-clause where name <> "vaishali gupta"
+        4   
+        5   FIND NEXT customer where name <> "vaishali gupta".
+        6   DISPLAY customer.

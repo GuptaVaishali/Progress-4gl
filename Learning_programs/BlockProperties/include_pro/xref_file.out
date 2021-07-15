@@ -1,0 +1,24 @@
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 1 COMPILE d:\vaishali\BlockProperties\include_pro\include_file.p
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 1 CPINTERNAL ISO8859-1
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 1 CPSTREAM ISO8859-1
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 1 STRING "i" 1 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 2 STRING "a" 1 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 2 STRING "->,>>>,>>9" 10 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 3 INCLUDE d:\vaishali\BlockProperties\include_pro\display_customer.p
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\display_customer.p 2 STRING "Customer" 8 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\display_customer.p 2 SEARCH sports1.Customer Cust-Num WHOLE-INDEX
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\display_customer.p 3 ACCESS sports1.Customer Cust-Num 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\display_customer.p 3 ACCESS sports1.Customer Name 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\display_customer.p 3 STRING ">>>>9" 5 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\display_customer.p 3 STRING "x(20)" 5 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 5 STRING "b" 1 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 5 STRING "->,>>>,>>9" 10 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 5 STRING "value" 5 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 5 STRING "----------------" 16 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 5 STRING "value" 5 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 5 STRING "----------------" 16 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 5 STRING "Cust-Num" 8 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 5 STRING "Name" 4 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 5 STRING "Cust-Num" 8 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 5 STRING "Name" 4 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\include_pro\include_file.p d:\vaishali\BlockProperties\include_pro\include_file.p 5 STRING "--------- ----------------------" 32 NONE UNTRANSLATABLE 

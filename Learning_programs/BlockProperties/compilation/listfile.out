@@ -1,0 +1,29 @@
+...\checking_scope.p                  05/12/2021 14:25:31   PROGRESS(R) Page 1   
+
+{} Line Blk
+-- ---- ---
+      1   1 REPEAT:
+      2   1     FIND NEXT customer.
+      3   1     DISPLAY cust-num NAME WITH FRAME a.
+      4   1     LEAVE.      
+      5     END.
+      6     
+      7   1 REPEAT:
+      8   1     FIND NEXT customer.
+      9   1     DISPLAY cust-num NAME WITH FRAME b.
+     10     END.  
+     11     
+...\checking_scope.p                  05/12/2021 14:25:31   PROGRESS(R) Page 2   
+
+     File Name       Line Blk. Type   Tran            Blk. Label            
+-------------------- ---- ----------- ---- --------------------------------
+...\checking_scope.p    0 Procedure   No                                    
+    Buffers: sports1.Customer
+
+...\checking_scope.p    1 Repeat      No                                    
+    Frames:  a
+
+...\checking_scope.p    7 Repeat      No                                    
+    Frames:  b
+
+

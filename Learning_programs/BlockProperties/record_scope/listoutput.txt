@@ -1,0 +1,50 @@
+...eak_scope_block.p                  02/23/2021 00:25:56   PROGRESS(R) Page 1   
+
+{} Line Blk
+-- ---- ---
+      1   1 REPEAT:
+      2   2  FOR EACH customer:                          //weak scope
+      3   2     DISPLAY cust-num name WITH FRAME a.
+      4   1  END.
+      5   2  FOR EACH customer:
+      6   2     DISPLAY cust-num name WITH FRAME b.       //weak scope
+      7   1  END.
+      8   1  
+      9     FIND FIRST customer.       //free reference- scope raised to procedu
+      9   1 re block
+     10   1  DISP customer.cust-num NAME WITH FRAME c.
+     11   1  LEAVE.
+     12     END.    
+     13     
+     14     
+     15     
+     16     
+     17     /*DEFINE VAR saved-rep LIKE customer.sales-rep.
+     18     DO:
+     19      FOR EACH customer:
+     20         DISPLAY cust-num name WITH FRAME a.
+     21         saved-rep = customer.sales-rep.
+     22         FOR EACH customer:                         //Nesting weak scope 
+     22     not allowed
+     23             IF customer.sales-rep = saved-rep
+     24                 THEN DISPLAY cust-name WITH FRAME a.
+     25                 DOWN WITH FRAME a.
+     26          END.
+     27       END.    
+     28     END.   */   
+...eak_scope_block.p                  02/23/2021 00:25:56   PROGRESS(R) Page 2   
+
+     File Name       Line Blk. Type   Tran            Blk. Label            
+-------------------- ---- ----------- ---- --------------------------------
+...eak_scope_block.p    0 Procedure   No                                    
+...eak_scope_block.p    1 Repeat      No                                    
+    Buffers: sports1.Customer
+    Frames:  c
+
+...eak_scope_block.p    2 For         No                                    
+    Frames:  a
+
+...eak_scope_block.p    5 For         No                                    
+    Frames:  b
+
+

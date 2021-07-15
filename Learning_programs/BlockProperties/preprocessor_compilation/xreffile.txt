@@ -1,0 +1,72 @@
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 1 COMPILE d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 1 CPINTERNAL ISO8859-1
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 1 CPSTREAM ISO8859-1
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 5 STRING "Customer" 8 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 5 ACCESS sports1.Customer Name 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 5 STRING "vaishali gupta" 14 NONE TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 5 SEARCH sports1.Customer Cust-Num WHOLE-INDEX
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer Cust-Num 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING ">>>>9" 5 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer Country 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "x(20)" 5 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer Name 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "x(20)" 5 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer Address 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "x(20)" 5 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer Address2 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "x(20)" 5 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer City 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "x(12)" 5 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer State 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "x(20)" 5 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer Postal-Code 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "x(10)" 5 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer Contact 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "x(20)" 5 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer Phone 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "x(20)" 5 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer Sales-Rep 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "X(4)" 4 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer Credit-Limit 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "->,>>>,>>9" 10 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer Balance 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "->,>>>,>>9.99" 13 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer Terms 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "x(20)" 5 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer Discount 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING ">>9%" 4 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 ACCESS sports1.Customer Comments 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "x(60)" 5 NONE TRANSLATABLE  FORMAT 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Cust-Num" 8 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Country" 7 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Name" 4 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Address" 7 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Address2" 8 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "City" 4 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "State" 5 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Postal-Code" 11 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Contact" 7 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Phone" 5 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Sales-Rep" 9 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Credit-Limit" 12 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Balance" 7 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Terms" 5 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Discount" 8 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Comments" 8 LEFT TRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Cust-Num" 8 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Country" 7 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Name" 4 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Address" 7 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Address2" 8 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "City" 4 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "State" 5 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Postal-Code" 11 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Contact" 7 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Phone" 5 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Sales-Rep" 9 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Credit-Limit" 12 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Balance" 7 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Terms" 5 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Discount" 8 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "Comments" 8 NONE UNTRANSLATABLE 
+d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p d:\vaishali\BlockProperties\preprocessor_compilation\preprocessor.p 6 STRING "------------------------------------------------------------------------------" 78 NONE UNTRANSLATABLE 
