@@ -1,0 +1,110 @@
+/************* Customer Information *****************/
+
+"Cust-Num","Name","Country","Address","City","State","Phone"
+1,"Lift Line Skiing","USA","276 North Street","Boston","MA","(617) 450-0087"
+
+/************ Order Information ********************/"order-num","cust-num","order-date","ship-date","promise-date","carrier","Instructions","PO","Terms","Sales-Rep"
+177,1,03/30/93,04/09/93,04/09/93,"Standard Mail","","","Net30","HXM"
+
+/*********** OrderLine Information **************/"Order-Num","Line-Num","Price","Qty","Discount","Extended-Price","BackOrder"
+177,1,9,18,81,35,947.7,no
+177,2,29,13.5,31,35,272.03,no
+177,3,30,42.75,70,35,1945.13,no
+177,4,14,15,61,35,594.75,no
+177,5,31,31,42,35,846.3,no
+
+/************ Order Information ********************/"order-num","cust-num","order-date","ship-date","promise-date","carrier","Instructions","PO","Terms","Sales-Rep"
+185,1,04/05/93,?,05/19/93,"Walkers Delivery","","","Net30","HXM"
+
+/*********** OrderLine Information **************/"Order-Num","Line-Num","Price","Qty","Discount","Extended-Price","BackOrder"
+185,1,43,13.97,99,35,898.97,no
+185,2,29,13.5,4,35,35.1,no
+
+
+/************* Customer Information *****************/
+
+"Cust-Num","Name","Country","Address","City","State","Phone"
+2,"Urpon Frisbee","Finland","Rattipolku 3","Valkeala","Uusimaa","(60) 532 5471"
+
+/************ Order Information ********************/"order-num","cust-num","order-date","ship-date","promise-date","carrier","Instructions","PO","Terms","Sales-Rep"
+125,2,03/03/93,03/26/93,03/22/93,"FlyByNight Courier","","","Net30","DKP"
+
+/*********** OrderLine Information **************/"Order-Num","Line-Num","Price","Qty","Discount","Extended-Price","BackOrder"
+125,1,41,7.49,74,35,360.27,no
+125,2,28,23,98,35,1465.1,no
+125,3,43,13.97,93,35,844.49,no
+
+/************ Order Information ********************/"order-num","cust-num","order-date","ship-date","promise-date","carrier","Instructions","PO","Terms","Sales-Rep"
+171,2,03/26/93,?,04/19/93,"Standard Mail","","","Net30","DKP"
+
+/*********** OrderLine Information **************/"Order-Num","Line-Num","Price","Qty","Discount","Extended-Price","BackOrder"
+171,1,13,10.99,22,35,157.16,no
+171,2,5,19.95,96,35,1244.88,no
+171,3,32,19.99,78,35,1013.49,no
+171,4,10,50,1,35,32.5,no
+171,5,20,225,44,35,6435,no
+171,6,31,31,34,35,685.1,no
+
+
+/************* Customer Information *****************/
+
+"Cust-Num","Name","Country","Address","City","State","Phone"
+3,"Hoops Croquet Co.","USA","Suite 415","Hingham","MA","(617) 366-1557"
+
+/************ Order Information ********************/"order-num","cust-num","order-date","ship-date","promise-date","carrier","Instructions","PO","Terms","Sales-Rep"
+160,3,03/22/93,?,04/23/93,"Walkers Delivery","","","Net30","HXM"
+
+/*********** OrderLine Information **************/"Order-Num","Line-Num","Price","Qty","Discount","Extended-Price","BackOrder"
+160,1,22,32,70,10,2016,no
+160,2,23,7.99,1,10,7.19,no
+160,3,28,23,57,10,1179.9,no
+160,4,6,27.5,80,10,1980,no
+160,5,52,3.69,9,10,29.89,no
+160,6,14,15,92,10,1242,no
+160,7,14,15,49,10,661.5,no
+
+/************ Order Information ********************/"order-num","cust-num","order-date","ship-date","promise-date","carrier","Instructions","PO","Terms","Sales-Rep"
+163,3,03/23/93,?,04/19/93,"Standard Mail","","","Net30","HXM"
+
+/*********** OrderLine Information **************/"Order-Num","Line-Num","Price","Qty","Discount","Extended-Price","BackOrder"
+163,1,20,225,79,10,15997.5,no
+163,2,50,13.99,21,10,264.41,no
+163,3,14,15,41,10,553.5,no
+163,4,40,61,77,10,4227.3,no
+163,5,42,37,38,10,1265.4,no
+163,6,52,3.69,95,10,315.5,no
+
+/************ Order Information ********************/"order-num","cust-num","order-date","ship-date","promise-date","carrier","Instructions","PO","Terms","Sales-Rep"
+167,3,03/24/93,?,04/19/93,"Standard Mail","","","Net30","HXM"
+
+/*********** OrderLine Information **************/"Order-Num","Line-Num","Price","Qty","Discount","Extended-Price","BackOrder"
+167,1,48,42,21,10,793.8,no
+167,2,14,15,19,10,256.5,no
+167,3,7,125,72,10,8100,no
+167,4,5,19.95,22,10,395.01,no
+167,5,47,11.77,77,10,815.66,no
+167,6,5,19.95,38,10,682.29,no
+
+/************ Order Information ********************/"order-num","cust-num","order-date","ship-date","promise-date","carrier","Instructions","PO","Terms","Sales-Rep"
+189,3,04/06/93,?,05/10/93,"Standard Mail","","","Net30","HXM"
+
+/*********** OrderLine Information **************/"Order-Num","Line-Num","Price","Qty","Discount","Extended-Price","BackOrder"
+189,1,54,4.86,6,10,26.24,no
+189,2,44,3.99,70,10,251.37,no
+189,3,49,6.78,37,10,225.77,no
+189,4,40,61,19,10,1043.1,no
+189,5,20,225,72,10,14580,no
+
+
+/************* Customer Information *****************/
+
+"Cust-Num","Name","Country","Address","City","State","Phone"
+4,"Go Fishing Ltd","United Kingdom","Unit 2","Harrow","Middlesex","081 883 6827"
+
+
+/************* Customer Information *****************/
+
+"Cust-Num","Name","Country","Address","City","State","Phone"
+5,"Match Point Tennis","USA","66 Homer Ave","Como","MA","(817) 498-2801"
+
+

@@ -1,0 +1,49 @@
+ADD TABLE "Salesrep"
+  AREA "Info Area"
+  DESCRIPTION "Sales representative information"
+  VALEXP "NOT CAN-FIND(FIRST Customer Of Salesrep)"
+  VALMSG "Cannot delete if used in one or more customer records."
+  DUMP-NAME "salesrep"
+
+ADD FIELD "Rep-Name" OF "Salesrep" AS character 
+  FORMAT "x(30)"
+  INITIAL ""
+  POSITION 2
+  MAX-WIDTH 60
+  HELP "Name of Salesman"
+  ORDER 20
+
+ADD FIELD "Region" OF "Salesrep" AS character 
+  FORMAT "x(8)"
+  INITIAL ""
+  POSITION 3
+  MAX-WIDTH 16
+  HELP "Sales Region covered by this salesman"
+  ORDER 30
+
+ADD FIELD "Sales-Rep" OF "Salesrep" AS character 
+  FORMAT "x(4)"
+  INITIAL ""
+  POSITION 4
+  MAX-WIDTH 8
+  ORDER 1
+
+ADD FIELD "Month-Quota" OF "Salesrep" AS integer 
+  FORMAT "->,>>>,>>9"
+  INITIAL "0"
+  POSITION 5
+  MAX-WIDTH 264
+  EXTENT 12
+  ORDER 40
+
+ADD INDEX "Sales-Rep" ON "Salesrep" 
+  AREA "Info Area"
+  UNIQUE
+  PRIMARY
+  INDEX-FIELD "Sales-Rep" ASCENDING 
+
+.
+PSC
+cpstream=ISO8859-1
+.
+0000000955

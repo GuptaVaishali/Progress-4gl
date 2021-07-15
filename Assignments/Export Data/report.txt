@@ -1,0 +1,30 @@
+/************* Customer Information *****************/
+
+"Cust-Num","Name","Country","Address","City","State","Phone"
+1,"Lift Line Skiing","USA","276 North Street","Boston","MA","(617) 450-0087"
+
+
+/************* Customer Information *****************/
+
+"Cust-Num","Name","Country","Address","City","State","Phone"
+2,"Urpon Frisbee","Finland","Rattipolku 3","Valkeala","Uusimaa","(60) 532 5471"
+
+
+/************* Customer Information *****************/
+
+"Cust-Num","Name","Country","Address","City","State","Phone"
+3,"Hoops Croquet Co.","USA","Suite 415","Hingham","MA","(617) 366-1557"
+
+
+/************* Customer Information *****************/
+
+"Cust-Num","Name","Country","Address","City","State","Phone"
+4,"Go Fishing Ltd","United Kingdom","Unit 2","Harrow","Middlesex","081 883 6827"
+
+
+/************* Customer Information *****************/
+
+"Cust-Num","Name","Country","Address","City","State","Phone"
+5,"Match Point Tennis","USA","66 Homer Ave","Como","MA","(817) 498-2801"
+
+

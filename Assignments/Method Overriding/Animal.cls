@@ -1,0 +1,5 @@
+CLASS Animal:
+    METHOD PUBLIC VOID displayInfo():
+        MESSAGE "Animal class" VIEW-AS ALERT-BOX INFORMATION BUTTONS OK.
+    END METHOD.
+END CLASS.
