@@ -1,0 +1,20 @@
+...\do_transaction.p                  02/20/2021 04:27:39   PROGRESS(R) Page 1   
+
+{} Line Blk
+-- ---- ---
+      1   1 DO:
+      2   1     FIND customer WHERE cust-num=2.
+      3   1     UPDATE customer.
+      4   1     DISP TRANSACTION WITH FRAME aaa.    //No
+      5     END. 
+...\do_transaction.p                  02/20/2021 04:27:39   PROGRESS(R) Page 2   
+
+     File Name       Line Blk. Type   Tran            Blk. Label            
+-------------------- ---- ----------- ---- --------------------------------
+...\do_transaction.p    0 Procedure   Yes                                   
+    Buffers: sports1.Customer
+    Frames:  aaa
+             Unnamed
+
+...\do_transaction.p    1 Do          No                                    
+

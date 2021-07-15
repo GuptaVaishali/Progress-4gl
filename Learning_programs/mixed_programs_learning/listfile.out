@@ -1,0 +1,45 @@
+...\checking_scope.p                  02/10/2021 01:18:13   PROGRESS(R) Page 1   
+
+{} Line Blk
+-- ---- ---
+      1     /*FOR EACH customer:
+      2         DISPLAY cust-num NAME WITH FRAME a.      //scope raisd for for e
+      2     ach loop only.
+      3     END.
+      4     
+      5     FIND FIRST customer.
+      6     DISP customer.NAME cust-num WITH FRAME b.   // frame b scope is to p
+      6     rocedure block
+      7     */
+      8     
+      9   1 REPEAT:
+     10   1     FIND NEXT customer.
+     11   1     DISPLAY cust-num NAME WITH FRAME a.
+     12   1     LEAVE.
+     13     END.
+     14     
+     15   1 REPEAT:
+     16   1     FIND NEXT customer.
+     17   1     DISPLAY cust-num NAME WITH FRAME b.
+     18     END.  
+     19     
+     20     /*DEFINE VARIABLE i AS INTEGER INITIAL "1".
+     21     REPEAT:
+     22         DISPLAY i.
+     23         LEAVE.
+     24      //   ASSIGN i = i + 1.   //no need of increment..internal looping
+     25     END.   */
+...\checking_scope.p                  02/10/2021 01:18:13   PROGRESS(R) Page 2   
+
+     File Name       Line Blk. Type   Tran            Blk. Label            
+-------------------- ---- ----------- ---- --------------------------------
+...\checking_scope.p    0 Procedure   No                                    
+    Buffers: sports.Customer
+
+...\checking_scope.p    9 Repeat      No                                    
+    Frames:  a
+
+...\checking_scope.p   15 Repeat      No                                    
+    Frames:  b
+
+

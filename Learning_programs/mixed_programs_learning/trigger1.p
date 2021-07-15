@@ -1,0 +1,36 @@
+DEFINE VARIABLE where-focus AS CHARACTER LABEL "Input focus is currently on" VIEW-AS TEXT.
+DEFINE VARIABLE which-chosen AS CHARACTER LABEL "Last button chosen" VIEW-AS TEXT.
+
+DEFINE BUTTON btn1.
+DEFINE BUTTON btn2.
+DEFINE BUTTON btn3.
+DEFINE BUTTON EXIT.
+
+DEFINE FRAME f1 
+    SKIP(1)
+    where-focus SKIP
+    which-chosen SKIP
+        WITH SIDE-LABELS NO-BOX CENTERED.
+       
+DEFINE FRAME f2
+    SKIP(1)
+    btn1 btn2 btn3 EXIT SKIP
+    WITH SIDE-LABELS NO-BOX CENTERED.
+    
+ON ENTRY OF btn1 IN FRAME f2,btn2 IN FRAME f2,btn3 IN FRAME f2,EXIT IN FRAME f2
+DO:
+    APPLY "Entry" TO SELF.
+    ASSIGN where-focus = FOCUS:LABEL.
+    DISPLAY where-focus WITH FRAME f1.
+END.
+
+ON CHOOSE OF btn1 IN FRAME f2,btn2 IN FRAME f2,btn3 IN FRAME f2
+DO:
+    ASSIGN which-chosen = SELF:LABEL.
+    DISPLAY which-chosen WITH FRAME f1.
+END.
+
+VIEW FRAME frame1.
+ENABLE ALL WITH FRAME f2.
+WAIT-FOR CHOOSE OF EXIT IN FRAME f2.
+

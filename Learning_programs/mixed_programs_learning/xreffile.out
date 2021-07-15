@@ -1,0 +1,26 @@
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 1 COMPILE D:\vaishali\checking_scope.p
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 1 CPINTERNAL ISO8859-1
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 1 CPSTREAM ISO8859-1
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 10 STRING "Customer" 8 NONE UNTRANSLATABLE 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 10 SEARCH sports.Customer Cust-Num WHOLE-INDEX
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 11 STRING "a" 1 NONE UNTRANSLATABLE 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 11 ACCESS sports.Customer Cust-Num 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 11 ACCESS sports.Customer Name 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 11 STRING ">>>>9" 5 NONE TRANSLATABLE  FORMAT 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 11 STRING "x(20)" 5 NONE TRANSLATABLE  FORMAT 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 16 SEARCH sports.Customer Cust-Num WHOLE-INDEX
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 17 STRING "b" 1 NONE UNTRANSLATABLE 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 17 ACCESS sports.Customer Cust-Num 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 17 ACCESS sports.Customer Name 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 17 STRING ">>>>9" 5 NONE TRANSLATABLE  FORMAT 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 17 STRING "x(20)" 5 NONE TRANSLATABLE  FORMAT 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 18 STRING "Cust-Num" 8 LEFT TRANSLATABLE 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 18 STRING "Name" 4 LEFT TRANSLATABLE 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 18 STRING "Cust-Num" 8 NONE UNTRANSLATABLE 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 18 STRING "Name" 4 NONE UNTRANSLATABLE 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 18 STRING "--------- ----------------------" 32 NONE UNTRANSLATABLE 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 18 STRING "Cust-Num" 8 LEFT TRANSLATABLE 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 18 STRING "Name" 4 LEFT TRANSLATABLE 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 18 STRING "Cust-Num" 8 NONE UNTRANSLATABLE 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 18 STRING "Name" 4 NONE UNTRANSLATABLE 
+D:\vaishali\checking_scope.p D:\vaishali\checking_scope.p 18 STRING "--------- ----------------------" 32 NONE UNTRANSLATABLE 

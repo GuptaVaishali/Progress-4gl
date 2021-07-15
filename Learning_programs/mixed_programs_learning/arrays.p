@@ -1,0 +1,7 @@
+DEFINE VARIABLE numbers AS INTEGER EXTENT 3 INITIAL [2,3,6].
+DEFINE VARIABLE i AS INTEGER.
+//DISP numbers[1].
+//DISP numbers.LENGTH.
+DO i=1 TO 3 WITH FRAME f:
+    DISP numbers[i].
+END.
