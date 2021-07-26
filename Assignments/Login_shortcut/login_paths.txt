@@ -1,0 +1,75 @@
+C:\Progress\OpenEdge\bin\prowin.exe
+
+-basekey ini -ininame D:\DNH_Project\Login_shortcut\login.ini
+
+-pf D:\DNH_Project\Login_shortcut\dbparam.pf
+
+-p D:\DNH_Project\Login_shortcut\Login.w
+
+PROPATH=.,C:\Progress\OpenEdge\C:\Progress\OpenEdge\bin
+
+fontn=typeface, [ size point-size, keyword, ...], 
+   [ script=scriptname]
+
+font17=Times New Roman, size 14, bold, script=Western
+
+colorn = { R , G , B , |colorname}
+
+color15 = 255,255,255
+color9 = 0,0,255
+
+
+[Startup]
+V6Display=no
+;ImmediateDisplay=yes
+;MultitaskingInterval=100
+DefaultFont=MS Sans Serif, size=8
+DefaultFixedFont=Courier New, size=8
+DLC=C:\Progress\OpenEdge
+Use-3D-Size=Yes
+PROPATH=.,C:\Progress\OpenEdge\C:\Progress\OpenEdge\bin
+UseSourceEditor=yes
+EditorConfigPath=C:\OpenEdge\WRK\proedit
+
+
+[Colors]
+;******************************************************************************
+; THE DEFINITION OF COLOR 0 THROUGH 15 IS PRIVATE TO THE PROGRESS ADE.  
+; MODIFYING COLORS 0 THROUGH 15 MAY PREVENT THE PROGRESS ADE FROM RUNNING.
+; The following color definitions correspond to the ADE standards.
+;  0 to 15  - reserved
+color0=0,0,0
+color1=0,0,128
+color2=0,128,0
+color3=0,128,128
+color4=128,0,0
+color5=128,0,128
+color6=128,128,0
+color7=128,128,128
+color8=192,192,192
+color9=0,0,255
+color10=0,255,0
+color11=0,255,255
+color12=255,0,0
+color13=255,0,255
+color14=255,255,0
+color15=255,255,255
+
+font0=Courier New, size=8
+font1=MS Sans Serif, size=8
+font2=Courier New, size=8
+font3=Courier New, size=8
+font4=MS Sans Serif, size=8
+font5=MS Sans Serif, size=10
+font6=MS Sans Serif, size=8, bold
+font7=MS Sans Serif, size=8
+font8=MS Sans Serif, size=8
+font9=MS Sans Serif, size=8
+font10=MS Sans Serif, size=8
+font11=MS Sans Serif, size=8
+font12=MS Sans Serif, size=8
+font13=MS Sans Serif, size=8
+font14=MS Sans Serif, size=8
+font15=MS Sans Serif, size=8
+font16=MS Sans Serif, size=8
+font17=Times New Roman, size 14, bold
