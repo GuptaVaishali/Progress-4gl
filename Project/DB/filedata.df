@@ -1,0 +1,43 @@
+ADD TABLE "fileData"
+  AREA "Employee"
+  DUMP-NAME "filedata"
+
+ADD FIELD "CustNum" OF "fileData" AS integer 
+  FORMAT ">>>>9"
+  INITIAL "0"
+  LABEL "Cust Num"
+  POSITION 2
+  MAX-WIDTH 4
+  VALEXP "custnum > 0"
+  VALMSG "Customer number must be greater than zero"
+  HELP "Please enter a customer number."
+  ORDER 10
+
+ADD FIELD "blobData" OF "fileData" AS blob 
+  FORMAT "x(8)"
+  INITIAL ?
+  POSITION 3
+  LOB-AREA "Employee"
+  LOB-BYTES 104857600
+  LOB-SIZE 100M
+  ORDER 20
+
+ADD FIELD "File-Name" OF "fileData" AS character 
+  FORMAT "x(28)"
+  INITIAL ""
+  POSITION 4
+  MAX-WIDTH 56
+  ORDER 30
+
+ADD FIELD "CreatedDateTime" OF "fileData" AS datetime 
+  FORMAT "99/99/9999 HH:MM:SS.SSS"
+  INITIAL ?
+  POSITION 5
+  MAX-WIDTH 8
+  ORDER 40
+
+.
+PSC
+cpstream=ISO8859-1
+.
+0000000774
