@@ -1,0 +1,121 @@
+ADD TABLE "NewUser"
+  AREA "Employee"
+  DUMP-NAME "newuser"
+
+ADD FIELD "Name" OF "NewUser" AS character 
+  FORMAT "x(30)"
+  INITIAL ""
+  LABEL "Name"
+  POSITION 2
+  MAX-WIDTH 40
+  ORDER 10
+
+ADD FIELD "Address" OF "NewUser" AS character 
+  FORMAT "x(35)"
+  INITIAL ""
+  LABEL "Adddress"
+  POSITION 3
+  MAX-WIDTH 16
+  ORDER 20
+
+ADD FIELD "City" OF "NewUser" AS character 
+  FORMAT "x(25)"
+  INITIAL ""
+  LABEL "City"
+  POSITION 4
+  MAX-WIDTH 16
+  ORDER 30
+
+ADD FIELD "State" OF "NewUser" AS character 
+  FORMAT "x(20)"
+  INITIAL ""
+  POSITION 5
+  MAX-WIDTH 16
+  ORDER 40
+
+ADD FIELD "Zip-Code" OF "NewUser" AS character 
+  FORMAT "x(6)"
+  INITIAL ""
+  POSITION 6
+  MAX-WIDTH 16
+  ORDER 50
+
+ADD FIELD "EmailAddress" OF "NewUser" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  LABEL "Email Address"
+  POSITION 7
+  MAX-WIDTH 100
+  ORDER 60
+
+ADD FIELD "User_Id" OF "NewUser" AS character 
+  FORMAT "x(20)"
+  INITIAL ""
+  LABEL "User Id"
+  POSITION 8
+  MAX-WIDTH 40
+  ORDER 70
+
+ADD FIELD "Password" OF "NewUser" AS character 
+  FORMAT "x(20)"
+  INITIAL ""
+  LABEL "Password"
+  POSITION 9
+  MAX-WIDTH 40
+  ORDER 80
+
+ADD FIELD "UserGroup" OF "NewUser" AS character 
+  FORMAT "x(10)"
+  INITIAL ""
+  LABEL "User Group"
+  POSITION 10
+  MAX-WIDTH 20
+  ORDER 90
+
+ADD FIELD "SecretQuestion" OF "NewUser" AS character 
+  FORMAT "x(50)"
+  INITIAL ""
+  LABEL "Secret Question"
+  POSITION 11
+  MAX-WIDTH 100
+  ORDER 100
+
+ADD FIELD "SecretAnswer" OF "NewUser" AS character 
+  FORMAT "x(20)"
+  INITIAL ""
+  LABEL "Secret Answer"
+  POSITION 12
+  MAX-WIDTH 40
+  ORDER 110
+
+ADD FIELD "CreatedDateTime" OF "NewUser" AS datetime 
+  FORMAT "99/99/9999 HH:MM:SS.SSS"
+  INITIAL ?
+  LABEL "Create Date Time"
+  POSITION 13
+  MAX-WIDTH 8
+  ORDER 120
+
+ADD FIELD "LastUpdatedDateTime" OF "NewUser" AS datetime 
+  FORMAT "99/99/9999 HH:MM:SS.SSS"
+  INITIAL ?
+  LABEL "Last Update Date Time"
+  POSITION 14
+  MAX-WIDTH 8
+  ORDER 130
+
+ADD INDEX "User_id" ON "NewUser" 
+  AREA "Employee"
+  UNIQUE
+  PRIMARY
+  INDEX-FIELD "User_Id" ASCENDING 
+
+ADD INDEX "Name" ON "NewUser" 
+  AREA "Employee"
+  INDEX-FIELD "Name" ASCENDING 
+
+.
+PSC
+cpstream=ISO8859-1
+.
+0000002203
